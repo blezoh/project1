@@ -12,6 +12,7 @@ const SITE = {
 const LOGO = `<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2l15 5v11c0 9.5-6.2 16.4-15 20C11.2 34.400 5 27.500 5 18V7z" fill="#112d52"/><path d="M20 2l15 5v11c0 9.500-6.200 16.400-15 20z" fill="#0a1d35"/><path d="M13 21l5 5 9-11" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><rect x="5" y="30" width="30" height="0" /></svg>`;
 
 const PAGES = [
+  ["index.html", "Home"],
   ["services.html", "Services"],
   ["pricing.html", "Pricing"],
   ["faq.html", "FAQ"],
@@ -59,7 +60,7 @@ function renderChrome() {
           <span style="display:block;margin-bottom:8px">${SITE.address}</span>
         </div>
       </div>
-      <div class="legal">© ${new Date().getFullYear()} ${SITE.brand}. Information on this site is general and is not legal advice. Trademark package prices are illustrative; confirm current official fees before filing.</div>
+      <div class="legal">© ${new Date().getFullYear()} ${SITE.brand}. Information on this site is general and is not legal advice. Trademark package prices are illustrative; confirm current official fees before filing. <a href="privacy.html">Privacy Policy</a></div>
     </div></footer>`;
 }
 
