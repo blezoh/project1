@@ -2,12 +2,12 @@
 const SITE = {
   brand: "Alama",
   tagline: "Trademarks for Kenya & the US",
-  phone: "+254 700 000 000",
-  phoneHref: "+254700000000",
-  email: "hello@yourdomain.co.ke",
-  address: "Nairobi, Kenya (add your office address)",
+  phone: "+254 117 369 361",
+  phoneHref: "+254117369361",
+  email: "jessekimani674@gmail.com",
+  address: "98/20106, Nakuru, Kenya (add your office address)",
   usAddress: "United States (add US partner address)",
-  whatsapp: "254700000000"
+  whatsapp: "254117369361"
 };
 
 const LOGO = `<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2l15 5v11c0 9.5-6.2 16.4-15 20C11.2 34.400 5 27.500 5 18V7z" fill="#0b5d3b"/><path d="M20 2l15 5v11c0 9.500-6.200 16.400-15 20z" fill="#073f28"/><path d="M13 21l5 5 9-11" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><rect x="5" y="30" width="30" height="0" /></svg>`;

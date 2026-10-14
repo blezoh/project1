@@ -1,8 +1,8 @@
 :root{
-  --green:#0b5d3b; --green-d:#073f28; --green-l:#e6f2ec;
-  --red:#bb1e10; --ink:#14201a; --muted:#53635a; --line:#dfe6e1;
-  --sand:#faf7f1; --white:#fff; --gold:#e8b53a;
-  --radius:14px; --shadow:0 10px 30px rgba(7,63,40,.10);
+  --green:#112d52; --green-d:#0a1d35; --green-l:#edf3fb;
+  --red:#c2574a; --ink:#142338; --muted:#4e5d75; --line:#dde5ee;
+  --sand:#f8f5ef; --white:#fff; --gold:#d7b15f;
+  --radius:14px; --shadow:0 10px 30px rgba(10,29,53,.10);
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -17,7 +17,7 @@ h2{font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800}
 h3{font-size:1.2rem;font-weight:700}
 p{margin:0 0 1em}
 .lead{font-size:1.15rem;color:var(--muted);max-width:60ch}
-.eyebrow{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-bottom:.8rem}
+.eyebrow{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem}
 section{padding:72px 0}
 .alt{background:var(--sand)}
 .center{text-align:center}.center .lead{margin-inline:auto}
@@ -32,7 +32,7 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
 .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.35rem;color:var(--ink);letter-spacing:-.02em}
 .logo:hover{text-decoration:none}
 .logo svg{width:32px;height:32px}
-.logo small{color:var(--red);font-weight:700}
+.logo small{color:var(--gold);font-weight:700}
 nav.main{display:flex;gap:26px;align-items:center}
 nav.main a{color:var(--ink);font-weight:600;font-size:.95rem}
 nav.main a.active{color:var(--green);box-shadow:0 2px 0 var(--green)}
@@ -42,8 +42,8 @@ nav.main a:hover{text-decoration:none;color:var(--green)}
 /* buttons */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;border-radius:999px;padding:13px 26px;border:2px solid transparent;cursor:pointer;font-size:1rem;font-family:inherit;transition:.15s}
 .btn:hover{text-decoration:none;transform:translateY(-1px)}
-.btn-primary{background:var(--red);color:#fff}
-.btn-primary:hover{background:#9f180c}
+.btn-primary{background:var(--gold);color:var(--green-d)}
+.btn-primary:hover{background:#c69e4b}
 .btn-green{background:var(--green);color:#fff}
 .btn-green:hover{background:var(--green-d)}
 .btn-ghost{border-color:var(--green);color:var(--green);background:transparent}
@@ -73,7 +73,7 @@ nav.main a:hover{text-decoration:none;color:var(--green)}
 .g2{grid-template-columns:repeat(2,1fr)}
 .card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);display:flex;flex-direction:column}
 .card .icon{width:48px;height:48px;border-radius:12px;background:var(--green-l);display:grid;place-items:center;margin-bottom:16px}
-.card .icon svg{width:26px;height:26px;stroke:var(--green);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.card .icon svg{width:26px;height:26px;stroke:var(--gold);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .card .from{margin-top:auto;padding-top:14px;font-size:.9rem;color:var(--muted)}
 .card .from b{font-size:1.4rem;color:var(--ink)}
 .card p{color:var(--muted)}
