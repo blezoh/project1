@@ -1,7 +1,7 @@
 :root{
   --green:#112d52; --green-d:#0a1d35; --green-l:#edf3fb;
   --red:#c2574a; --ink:#142338; --muted:#4e5d75; --line:#dde5ee;
-  --sand:#f8f5ef; --white:#fff; --gold:#d7b15f;
+  --sand:#f6f8fb; --white:#fff; --gold:#d7b15f;
   --radius:14px; --shadow:0 10px 30px rgba(10,29,53,.10);
 }
 *{box-sizing:border-box}
@@ -23,7 +23,7 @@ section{padding:72px 0}
 .center{text-align:center}.center .lead{margin-inline:auto}
 
 /* top bar + header */
-.topbar{background:var(--green-d);color:#d7efe2;font-size:.85rem}
+.topbar{background:var(--green-d);color:#e4ebf5;font-size:.85rem}
 .topbar .wrap{display:flex;justify-content:space-between;gap:12px;align-items:center;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}
 .topbar a{color:#fff;font-weight:600}
 .topbar .flagbar{display:inline-block;width:34px;height:10px;border-radius:2px;margin-right:8px;vertical-align:middle;background:linear-gradient(#000 0 30%,#fff 30% 36%,var(--red) 36% 64%,#fff 64% 70%,var(--green) 70%)}
@@ -58,7 +58,7 @@ nav.main a:hover{text-decoration:none;color:var(--green)}
 .checks li{padding-left:30px;position:relative;font-weight:600}
 .checks li::before{content:"";position:absolute;left:0;top:3px;width:20px;height:20px;border-radius:50%;background:var(--green) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5 10.5l3.2 3.2L15 6.8' fill='none' stroke='white' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat}
 .hero-art{display:flex;justify-content:center}
-.hero-art svg{width:min(380px,100%);filter:drop-shadow(0 20px 30px rgba(7,63,40,.25))}
+.hero-art svg{width:min(300px,82vw);filter:drop-shadow(0 20px 30px rgba(10,29,53,.2))}
 
 /* strip */
 .strip{padding:28px 0;border-block:1px solid var(--line);background:var(--sand)}
@@ -90,7 +90,7 @@ nav.main a:hover{text-decoration:none;color:var(--green)}
 .compare{display:grid;gap:14px}
 .bar{background:var(--line);border-radius:10px;overflow:hidden}
 .bar>div{padding:12px 16px;color:#fff;font-weight:700;font-size:.95rem;white-space:nowrap}
-.bar .trad{background:#7b8a82;width:100%}
+.bar .trad{background:#64748b;width:100%}
 .bar .us{background:var(--green);width:34%}
 .note{font-size:.8rem;color:var(--muted)}
 
@@ -102,7 +102,7 @@ nav.main a:hover{text-decoration:none;color:var(--green)}
 .row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-size:.92rem}
 .row small{color:var(--muted);display:block}
 .pill{font-size:.75rem;font-weight:700;padding:4px 10px;border-radius:999px;white-space:nowrap}
-.pill.ok{background:#e1f5ea;color:#116a3d}.pill.wip{background:#fff3d6;color:#8a6200}.pill.new{background:#e5ecff;color:#2b4bb8}
+.pill.ok{background:#edf3fb;color:#112d52}.pill.wip{background:#fff5df;color:#8a6200}.pill.new{background:#fbecea;color:#a13f35}
 
 /* pricing */
 .toggle{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:4px;background:#fff;margin:18px 0 6px}
@@ -150,12 +150,12 @@ form.f{display:grid;gap:16px}
 .phero{padding:64px 0 48px;background:var(--sand);border-bottom:1px solid var(--line)}
 
 /* footer */
-footer.site{background:#0d1a14;color:#b8c8bf;padding:56px 0 24px;font-size:.92rem}
+footer.site{background:var(--green-d);color:#c3cedd;padding:56px 0 24px;font-size:.92rem}
 footer.site .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:36px}
 footer.site h4{color:#fff;margin:0 0 12px;font-size:.95rem}
-footer.site a{color:#b8c8bf;display:block;margin-bottom:8px}
+footer.site a{color:#c3cedd;display:block;margin-bottom:8px}
 footer.site a:hover{color:#fff}
-footer.site .legal{border-top:1px solid #243a2f;margin-top:36px;padding-top:20px;font-size:.8rem;color:#8ea398}
+footer.site .legal{border-top:1px solid #263a56;margin-top:36px;padding-top:20px;font-size:.8rem;color:#a6b4c9}
 
 @media(max-width:960px){
   .hero .wrap,.split{grid-template-columns:1fr}
@@ -171,7 +171,7 @@ footer.site .legal{border-top:1px solid #243a2f;margin-top:36px;padding-top:20px
   nav.main.open{display:flex}
   .topbar .hide-s{display:none}
   footer.site .cols{grid-template-columns:1fr}
-  .hero-art{order:-1}.hero-art svg{width:220px}
+  .hero-art{order:-1}.hero-art svg{width:min(200px,62vw)}
   table.t th,table.t td{padding:10px;font-size:.85rem}
 }
 footer.site a.logo{display:flex;margin-bottom:0}
