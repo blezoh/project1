@@ -1,6 +1,6 @@
 /* ===== EDIT THESE PLACEHOLDERS ===== */
 const SITE = {
-  brand: "Alama",
+  brand: "AlamaTM",
   tagline: "IP protection in Kenya & the US",
   phone: "+254 117 369 361",
   phoneHref: "+254117369361",
