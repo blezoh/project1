@@ -30,7 +30,7 @@ function renderChrome() {
       <span><span class="hide-s">Call us: </span><a href="tel:${SITE.phoneHref}">${SITE.phone}</a> &nbsp;·&nbsp; <a href="https://wa.me/${SITE.whatsapp}">WhatsApp</a></span>
     </div></div>
     <header class="site"><div class="wrap">
-      <a class="logo" href="index.html">${LOGO}<span>${SITE.brand}<small>.</small></span></a>
+      <a class="logo" href="index.html">${LOGO}<span>${SITE.brand}</span></a>
       <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('nav.main').classList.toggle('open')">Menu</button>
       <nav class="main">${nav}<a class="btn btn-primary btn-sm" href="contact.html">Contact us</a></nav>
     </div></header>`;
@@ -40,7 +40,7 @@ function renderChrome() {
     <footer class="site"><div class="wrap">
       <div class="cols">
         <div>
-          <a class="logo" href="index.html" style="color:#fff">${LOGO}<span>${SITE.brand}<small>.</small></span></a>
+          <a class="logo" href="index.html" style="color:#fff">${LOGO}<span>${SITE.brand}</span></a>
           <p style="margin-top:14px">Trademark, patent and copyright support for individuals and businesses in Kenya and the United States.</p>
         </div>
         <div><h4>Services</h4>
